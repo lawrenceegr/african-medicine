@@ -1,0 +1,60 @@
+body{
+    background: url(images/12.jpeg) no repeat;
+    background-attachment: fixed;
+}
+.container{
+    padding: 20px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    font: 18px;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+
+}
+.side-bar ul{
+    text-decoration: none;
+    word-spacing: normal;
+}
+.nav{
+    display: flex;
+    
+}
+.nav ul{
+    justify-items: center;
+}
+.nav ul a{
+    text-decoration: none;
+    word-spacing:30px;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.med-content{
+    min-height: 400px;
+    width: 150px;
+    box-shadow: 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+.med-images{
+    height: 100;
+    max-width: 150px;
+}
+.item-title{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.item-description{
+    font-size: 12px;
+    font-weight: 500;
+}
